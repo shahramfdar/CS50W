@@ -1,8 +1,9 @@
 These are the lecture notes for CS50 course.
 Git:
-Git Clone: will clone the repository to the local computer.
-Git Add:  will include files to the next repository on the next commit.
-Git Commit: Will save the file to your local copy of repository.
+git clone: will clone the repository to the local computer.
+git add:  will include files to the next repository on the next commit.
+git commit: Will save the file to your local copy of repository.
   example:  Git Commit -m "i have made additions to notes"
-Git Status: will keep track of your repository activity and a comparison with Github version.
-Git push: will send the local repository changes to Github repository.
+git status: will keep track of your repository activity and a comparison with Github version.
+git push: will send the local repository changes to Github repository.
+git pull: will copy the github repository delta to your local repository. This is helpful when someone else has made changes to the github repository.
