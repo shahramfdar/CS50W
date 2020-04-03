@@ -6,4 +6,4 @@ git commit: Will save the file to your local copy of repository.
   example:  Git Commit -m "i have made additions to notes"
 git status: will keep track of your repository activity and a comparison with Github version.
 git push: will send the local repository changes to Github repository.
-git pull: will copy the github repository delta to your local repository. This is helpful when someone else has made changes to the github repository.
+git pull: will copy the github repository delta to your local repository. This is helpful when someone else has made changes to the github repository assisting in collaboration.
