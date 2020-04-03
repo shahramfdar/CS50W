@@ -1,0 +1,4 @@
+These are the lecture notes for CS50 course.
+Git:
+Git Clone: will clone the repository to the local computer.
+Git Add:  will include files to the next repository on the next commit.
