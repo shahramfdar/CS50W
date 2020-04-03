@@ -1,0 +1,14 @@
+These are the lecture notes for CS50 course.
+Git:
+git clone: will clone the repository to the local computer.
+git add:  will include files to the next repository on the next commit.
+git commit: Will save the file to your local copy of repository.
+  example:  Git Commit -m "i have made additions to notes"
+git status: will keep track of your repository activity and a comparison with Github version.
+git push: will send the local repository changes to Github repository.
+git pull: will copy the github repository delta to your local repository. This is helpful when someone else has made changes to the github repository making it easier to collaborate.
+Merge errors can result when multiple people make additions to the same line of code. When doing a git pull you will see merge errors, to correct these simply clear out the conflicts and commit locally before doing a push.
+git log: will provide the details of all commits in the github repository.
+git reset --hard:
+git reset -- hard origin/master:
+This is a test
