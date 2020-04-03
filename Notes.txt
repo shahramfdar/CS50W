@@ -11,4 +11,3 @@ Merge errors can result when multiple people make additions to the same line of 
 git log: will provide the details of all commits in the github repository.
 git reset --hard:
 git reset -- hard origin/master:
-This is a test
