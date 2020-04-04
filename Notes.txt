@@ -9,6 +9,12 @@ git push: will send the local repository changes to Github repository.
 git pull: will copy the github repository delta to your local repository. This is helpful when someone else has made changes to the github repository making it easier to collaborate.
 Merge errors can result when multiple people make additions to the same line of code. When doing a git pull you will see merge errors, to correct these simply clear out the conflicts and commit locally before doing a push.
 git log: will provide the details of all commits in the github repository.
+<<<<<<< HEAD
 git reset --hard "first four of index": resets the changes made to local repo after the targeted commit
 git reset -- hard origin/master: resets the changes to the original copy repository.
 git clean
+=======
+git reset --hard:
+git reset -- hard origin/master:
+This is a test
+>>>>>>> parent of 3a2fd9f... Update Notes.txt
