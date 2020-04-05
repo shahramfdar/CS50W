@@ -20,6 +20,6 @@ git branch : show a list of all the branches in your repository.
 git branch newname: creates a branch in repository
 git checkout branchname: switches the current branch.
 git merge branchname: will merge the branch with current branch.
-
-
-HTML:
+git push --setupstream origin newbranchname: this will set new branch in github.
+git push --delete origin  newbranchname: this deletes branches on github.
+git branch -D newbranchname: this deletes branches locally.
