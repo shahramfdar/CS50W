@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> divspan example </title>
+
+		<!style can also be separetly managed ina separate css file altogether>
+		<!The # sign can be used to style ids and the . sign can be used to style class>
+		<! Font size and weight are self explanatory>
+
+		<style>
+      #top {
+      font-size: 28px;
+			font-family: Helvetica, sans-serif;
+			font-weight: bold;
+		}
+		#middle {
+		font-size: 20px;
+		font-family: Arial, sans-serif;
+		font-weight: bold;
+	}
+		#bottom {
+		font-size: 15px;
+		font-family: fantasy, sans-serif;
+		font-weight: bold;
+	}
+	.name {
+		color: green;
+		font-family: fantasy, sans-serif;
+		font-weight: bold;
+	}
+    </style>
+	</head>
+
+	<body>
+		<!div denotes a section of code and can also be assigned an id>
+		<!span is a smaller section of code class can only be mentioned once and stays uniform>
+		<div id="top">
+			hello this is the <span class="name">top</span> of my webpage.
+		</div>
+    <div id="middle">
+			hello this is the <span class="name">middle</span> of my webpage.
+		</div>
+    <div id="bottom">
+			hello this is the <span class="name">bottom</span> of my webpage.
+		</div>
+  </body>
+</html>
