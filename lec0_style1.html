@@ -5,11 +5,16 @@
 		<title> Style1 example </title>
 
 		<! style is a css property can can be mentioned in the header metadata and referenced through out the body>
+		<! it is possible that an elements can have 2 properties apply to them. in such case order of precedence is used>
+		<! Class can also be used to defined style. Class can be used for multiple ojects id has to be unique>
 		<style>
 			h1{color: blue; text-align: center;}
 			h2{color: red; text-align:right;}
 			p{color: purple;}
-
+			.owner { color: orange; }
+			.buyer { color: purple;}
+			#specialheading {	color: Green; }
+			#specialheading2 {	color: lightgreen; }
 		</style>
 	</head>
 
@@ -17,6 +22,11 @@
 
     <h1>Welcome to Style1 webpage!</h1>
 		<h2>Welcome to Style1 webpage!</h2>
+		<h2 id="specialheading"> Welcome to ID Based heading webpage!</h2>
+		<h2 id="specialheading2"> Welcome to 2nd ID Based heading webpage!</h2>
+		<h2 class="owner"> This is class based heading </h2>
+		<h2 class="owner"> This is also class based heading </h2>
+		<h2 class="buyer"> This is a 2nd class based heading </h2>
 		<p> this is a paragraph</p>
     <p> this is another paragraph</p>
 

@@ -1,0 +1,47 @@
+// NOTE: SCSS allows us to use variables.
+$color: green;
+$nestcolor: purple;
+// NOTE: Scss also allows nesting
+div {
+  font-size: 10px;
+      p {
+        color: $nestcolor;
+        }
+      ul {
+          color: $nestcolor;
+          }
+      ol {
+            color:  $nestcolor;
+        }
+    }
+
+ul  {
+    font-size: 14px;
+    color: $color;
+    }
+ol {
+    font-size:  18px;
+    color:  $color;
+}
+
+// NOTE: SCSS lets us perform inheritance, in the below settings we are using extend for this purpose.
+%message {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+.success {
+  @extend %message;
+  background-color: green;
+          }
+.processing {
+  @extend %message;
+  background-color: yellow;
+            }
+.failure {
+  @extend %message;
+  background-color: red;
+            }

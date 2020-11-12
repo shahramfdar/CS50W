@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> selectors in CSS! Responsive media queries </title>
+	</head>
+	<!viewport and media queries are used to make webpages compatible to small screen devices>
+
+<style>
+@media (min-width: 0px) {body {background-color: red;}}
+@media (min-width: 499px) {body {background-color: blue;}}
+#container	{ display: flex; flex-wrap: wrap;}
+#container > div {background-color: green; font-size: 20px; margin: 20px; padding:20px; width:200px}
+#grid { background-color: yellow; display: grid; padding: 10px; grid-column-gap: 20px; grid-row-gap: 10px; grid-template-columns: 200px 200px auto;}
+.grid-item { background-color: white; font-size: 20px; padding 20px; text-align: center;}
+</style>
+
+<! >
+<body>
+	<hl> Welcome to my webpage! </hl>
+	<div id="container">
+		<div>1. This is some simple text</div>
+		<div>2. This is some simple text</div>
+		<div>3. This is some simple text</div>
+		<div>4. This is some simple text</div>
+	</div>
+	<div id="grid">
+		<div class="grid-item">1</div>
+		<div class="grid-item">2</div>
+		<div class="grid-item">3</div>
+	</div>
+</body>

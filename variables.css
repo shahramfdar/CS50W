@@ -1,0 +1,35 @@
+div {
+  font-size: 10px; }
+  div p {
+    color: purple; }
+  div ul {
+    color: purple; }
+  div ol {
+    color: purple; }
+
+ul {
+  font-size: 14px;
+  color: green; }
+
+ol {
+  font-size: 18px;
+  color: green; }
+
+.success, .processing, .failure {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.success {
+  background-color: green; }
+
+.processing {
+  background-color: yellow; }
+
+.failure {
+  background-color: red; }
+
+/*# sourceMappingURL=variables.css.map */

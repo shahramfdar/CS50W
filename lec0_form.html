@@ -8,9 +8,30 @@
 	<body>
 		<! form is used to collect data from the user, input type specifies the type of data, placeholder is used to prepopulate some text in the field for ref and name is the array that stores the values>
     <form>
-    <input type="text" placeholder="Fullname" name="name">
+
+
     <button> Submit </button>
-    </form>
+		<div>
+		<input type="text" placeholder="Fullname" name="name">
+		<input type="password" placeholder="password" name="password">	
+		</div>
+
+		<div>
+			Favorite color?
+			<input name="color" type="radio" value="red"> red
+			<input name="color" type="radio" value="green"> green
+			<input name="color" type="radio" value="blue"> blue
+		</div>
+
+		<div>
+			<input name="country" list="countries" placeholder="Country">
+			<datalist id="countries">
+				<option value="Afghanistan">
+				<option value="Albania">
+				<option value="Algeria">
+		</div>
+
+		</form>
 
   </body>
 </html>

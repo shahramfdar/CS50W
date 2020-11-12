@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> selectors in CSS! descendents </title>
+	</head>
+	<! the following style will apply to children elements of ul>
+	<! ul li will apply to all elements under ul>
+<style>
+	ul > li { color: blue;}
+</style>
+
+<! >
+<! in this example we are first styling only the sublist items>
+<!other CSS selectors can also be used - see style4selectors>
+<body>
+  <ol>
+      <li>Item one </li>
+      <li> Item two </li>
+				<ul>
+					<li>sublist Item one </li>
+		      <li> sublist Item two </li>
+				</ul>
+      <li>  Item three </li>
+  </ol>
+</body>
