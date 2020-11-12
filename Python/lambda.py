@@ -1,9 +1,11 @@
+#Here we have a dictionary array
 people = [
     {"name": "Harry", "house": "Griffindor"},
     {"name": "Cho", "house": "Ravenclaw"},
     {"name": "Draco", "house": "Slither"}
 ]
 
+#this will tell the sort function to sort by name.
 #def f(person):
 #    return person["name"]
 
